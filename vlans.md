@@ -5,7 +5,7 @@ but can't see anything on V60 even though they're both using the same switches a
 
 When data enters the network at a port on a switch, the port is configured to 'tag' it as belonging to a particular VLAN. This tagged traffic can be passed to any other switch that works with IEEE 802.1q ('dot1q'), even if the switch is from a different manufacturer. When the traffic leaves the switch by a port that isn't connected to another switch, the switch removes the VLAN tag and this has the benefit of ensuring more basic devices aren't confused by it.
 
-The VLANs currently assigned within BTS are as follows. Note that BTS also have VLAN 200 on the BUCS network - this is provisioned on request and should be considered entirely separately to these numbers.
+The VLANs currently assigned within BTS are as follows. Note that BTS also have VLAN 400 on the BUCS network - this is provisioned on request and should be considered entirely separately to these numbers.
 
 |No.|Usage|
 |---|---|
